@@ -38,9 +38,12 @@ if __name__ == '__main__':
   
   # step 1: split pdf
   # it works!
+  print("Splitting pdf . . .")
   splitter(cmnd_line_arg_list[0])
+  print("Splitting complete")
 
   # step 2: open text file and start creating seperate pdfs for each ch
+  print("Reading ", cmnd_line_arg_list[1], " . . . ")
   txt_file = open(cmnd_line_arg_list[1], 'r')
   line_list = [()]
   for line in txt_file:
