@@ -54,3 +54,5 @@ Once in a while you'll come across this error followed by a loop until the scrip
     . . .
 
 From my research, this error has to do with the corrupted pdf metadata. To fix, install `ghostscript` and follow the instructions here: https://superuser.com/a/282056 
+
+Happy splitting and merging PDFs!
